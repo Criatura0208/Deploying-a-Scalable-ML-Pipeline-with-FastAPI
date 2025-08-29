@@ -42,7 +42,11 @@ The model is evaluated using:
  
 # Overall Performance
 
-|Metric|Value| |---------|---------| |Precision|0.7391| |Recall|0.6384| |F1 Score|0.6851|
+| Metric    | Value  |
+|-----------|--------|
+| Precision | 0.7391 |
+| Recall    | 0.6384 |
+| F1 Score  | 0.6851 |
 
 # Sliced Performance Examples
 
