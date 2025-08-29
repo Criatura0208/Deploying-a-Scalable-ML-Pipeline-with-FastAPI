@@ -40,7 +40,7 @@ The model is evaluated using:
 - Recall: Proportion of actual positives that were correctly identified.
 - F1 Score: Harmonic mean of precision and recall, balancing both.
  
-# Overall Performance
+### Overall Performance
 
 | Metric    | Value  |
 |-----------|--------|
@@ -48,7 +48,7 @@ The model is evaluated using:
 | Recall    | 0.6384 |
 | F1 Score  | 0.6851 |
 
-# Sliced Performance Examples
+### Sliced Performance Examples
 
 Below are selected examples from the `slice_output.txt` that demonstrate model performance across subgroups:
 Workclass: Federal-gov
@@ -72,7 +72,7 @@ The model tends to perform better on individuals with higher levels of education
 
 ## Ethical Considerations
 
-# Bias and Fairness
+### Bias and Fairness
 - Performance Disparities:
 The model exhibits varying levels of performance across demographic groups, with noticeable differences in recall. Certain groups—such as women and individuals with lower levels of formal education—tend to be underrepresented or underpredicted, indicating potential bias in the model’s outcomes.
 - Sensitive Features:
@@ -84,7 +84,7 @@ The model was trained on data from the 1994 U.S. Census and may not reflect curr
 
 ## Caveats and Recommendations
 
-# Limitations and Considerations
+### Limitations and Considerations
 - Not Production-Ready:
 This model is not suitable for deployment in real-world systems without comprehensive bias and fairness evaluation. Its current use is intended solely for educational and research purposes.
 - Additional Auditing Required:
